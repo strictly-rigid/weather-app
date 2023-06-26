@@ -1,6 +1,6 @@
 import { refs } from './refs';
 
-let BASE_URL = 'http://api.weatherapi.com/v1';
+let BASE_URL = 'https://api.weatherapi.com/v1';
 const API_KEY = 'dad5bd8d50304f51883165435232406';
 
 refs.btnSubmit.addEventListener('click', getWeather);
